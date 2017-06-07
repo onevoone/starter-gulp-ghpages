@@ -1,0 +1,11 @@
+{
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "quotes": ["error", "single"],
+        "eqeqeq": ["error", "always"],
+        "semi": ["error", "always"],
+        "semi-spacing": ["error", { "before": false, "after": true }]
+    }
+}
