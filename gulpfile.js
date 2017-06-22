@@ -49,7 +49,10 @@ gulp.task('scripts', () => {
         .pipe(babel({
             presets: ['es2015']
         }))
-        .pipe(gulp.dest('./'));
+        .pipe(gulp.dest('./'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
 });
 
 gulp.task('scripts:build', (cb) => {
