@@ -1,7 +1,7 @@
 {
   "name": "starter-gulp-ghpages",
   "version": "1.0.0",
-  "description": "...",
+  "description": "Simple gulp starter",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp",
