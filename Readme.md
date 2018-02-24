@@ -29,7 +29,7 @@ Simple starter with `GulpJS`, `SCSS`, `es6`, `eslint` and `gh-pages`.
 
 #### Install
 
-    git https://github.com/skparallax/starter-gulp-ghpages.git new-idea
+    git clone REPO_URL new-idea
     cd new-idea
     npm install
     npm start
